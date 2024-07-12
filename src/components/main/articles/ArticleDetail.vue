@@ -34,6 +34,7 @@ import axios from 'axios';
 import moment from 'moment'
 import 'highlight.js/styles/a11y-light.css'
 import 'bytemd/dist/index.css' // 导入bytemd样式
+// @ts-ignore
 import { Viewer } from '@bytemd/vue-next' // 导入bytemd编辑器
 import gfm from '@bytemd/plugin-gfm' // 语法高亮
 import gemoji from '@bytemd/plugin-gemoji' // 表情

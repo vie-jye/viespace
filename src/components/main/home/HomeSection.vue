@@ -71,6 +71,7 @@ type Article = {
     views: number,
     image: string
 }
+// @ts-ignore
 type HomeArticle = {
     'featured': Article[],
     'programming': Article[],

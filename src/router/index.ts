@@ -39,6 +39,7 @@ const router = createRouter({
 });
 
 // 全局前置守卫
+// @ts-ignore
 router.beforeEach((to, from, next) => {
     // 在每次路由切换前将页面滚动到顶部
     window.scrollTo(0, 0);

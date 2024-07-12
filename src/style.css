@@ -1,0 +1,53 @@
+:root {
+  --color-youlv: #253D24;
+  --color-molv: #537036;
+  --color-snow: #FFFEF9;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  /* Project id 4516498 */
+  src: url('//at.alicdn.com/t/c/font_4516498_a9w0w7wtvef.woff2?t=1719736027272') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4516498_a9w0w7wtvef.woff?t=1719736027272') format('woff'),
+    url('//at.alicdn.com/t/c/font_4516498_a9w0w7wtvef.ttf?t=1719736027272') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont';
+  font-style: normal;
+}
+
+/* 玻璃拟态 */
+.glass-morphism {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-top-color: rgba(255, 255, 255, 0.3);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('http://lc-3sdxeS8b.cn-n1.lcfile.com/dSSaEA5N45S18oun3QdFqY693yiq7YRA/theme_background_resized_hd.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  background-color: unset;
+  border: unset;
+}

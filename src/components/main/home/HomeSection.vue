@@ -143,7 +143,7 @@ let homeArticles = reactive([]) as any
 
 // 获取首页文章
 function getHomeArticles() {
-    axios.get(host + '/app/article/home')
+    axios.get(host + '/app/article/homeList', { params: { flag: 1 } })
         .then(res => {
             const data = res.data
             console.log(data)

@@ -17,32 +17,32 @@ const socialInfo = [
         id: 1,
         type: 'juejin',
         name: 'Juejin',
-        icon: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/XYQegXSQvElqy0fnVP3U3M6d0j37aXwH/juejin.png',
-        iconActive: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/OhPSVms9pRHKglhPe5xXs15ivfANzLDs/juejin_active.png',
+        icon: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/juejin.png',
+        iconActive: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/juejin_active.png',
         url: 'https://juejin.cn/user/761280266516381'
     },
     {
         id: 2,
         type: 'figma',
         name: 'Figma',
-        icon: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/dFLfEUxO1n9LX4grEzGASWNo6vaNyNPP/figma.png',
-        iconActive: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/l9rUBRnI018gqhVjjvT7GvbRDQ1YUTnQ/figma_active.png',
+        icon: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/figma.png',
+        iconActive: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/figma_active.png',
         url: 'https://www.figma.com/'
     },
     {
         id: 3,
         type: 'bilibili',
         name: 'Bilibili',
-        icon: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/3NT9AGObuPidJnOMnKpGAC9lrAkhE2pE/bilibili.png',
-        iconActive: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/SAEaP8hLc2QVibDbJo8Ty6SVPLzFOXXj/bilibili_active.png',
+        icon: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/bilibili.png',
+        iconActive: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/bilibili_active.png',
         url: 'https://www.bilibili.com/'
     },
     {
         id: 4,
         type: 'github',
         name: 'Github',
-        icon: 'http://lc-3sdxeS8b.cn-n1.lcfile.com/GEg0OiGgDt6KDiiv09ijAz1UIRbJ8lVv/github.png',
-        iconActive: 'https://rqaadaviiwfwecvebqgh.supabase.co/storage/v1/object/public/space/icon/github.png',
+        icon: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/github.png',
+        iconActive: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/logo/github.png',
         url: 'https://github.com/'
     }
 ]

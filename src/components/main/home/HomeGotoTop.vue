@@ -1,7 +1,7 @@
 <template>
 <div class="goto-top" @mouseover="showActiveBtn" @mouseout="hideActiveBtn" @click="doGotoTop" ref="gotoTop">
-    <img class="top-btn-default" src="../../../assets/ui/gotoTop.svg" />
-    <img class="top-btn-active" style="display: none" src="../../../assets/ui/gotoTopActive.svg" />
+    <img class="top-btn-default" src="/src/assets/ui/gotoTop.svg" />
+    <img class="top-btn-active" style="display: none" src="/src/assets/ui/gotoTopActive.svg" />
 </div>
 </template>
 

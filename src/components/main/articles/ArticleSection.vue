@@ -423,7 +423,7 @@ onMounted(() => {
     height: 32px;
     background-color: var(--color-molv);
     border-left: 3px solid #B0C0A0;
-    background-image: url("src/assets/ui/expand.svg");
+    background-image: url("/src/assets/ui/expand.svg");
 }
 
 .section-cate .more-btn:hover {
@@ -481,7 +481,7 @@ onMounted(() => {
     width: 32px;
     height: 32px;
     background-color: var(--color-molv);
-    background-image: url("src/assets/ui/previous.svg");
+    background-image: url("/src/assets/ui/previous.svg");
 }
 
 .section-page.in-boundary .page-previous-btn {
@@ -501,7 +501,7 @@ onMounted(() => {
     width: 32px;
     height: 32px;
     background-color: var(--color-molv);
-    background-image: url("src/assets/ui/next.svg");
+    background-image: url("/src/assets/ui/next.svg");
 }
 
 .section-page.in-boundary .page-next-btn {

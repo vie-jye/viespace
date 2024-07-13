@@ -3,8 +3,8 @@
     <ul class="cate">
         <li class="cate-item" v-for="item in category" :key="item.id" @mouseover="hoverCate" @mouseout="hoverOutCate" @click="clickCate(item.id)">
             {{ item.name }}
-            <img class="cate-btn cate-btn-default" src="../../../assets/ui/cateGoto.svg" />
-            <img class="cate-btn cate-btn-active" style="display: none" src="../../../assets/ui/cateGotoActive.svg"
+            <img class="cate-btn cate-btn-default" src="/src/assets/ui/cateGoto.svg" />
+            <img class="cate-btn cate-btn-active" style="display: none" src="/src/assets/ui/cateGotoActive.svg"
                 :class="cateHoverState" />
         </li>
     </ul>
@@ -13,8 +13,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import router from '../../../router'
-import { useAppState } from "../../../store/appState"
+import router from '@/router'
+import { useAppState } from "@/store/appState"
 
 let cateHoverState = ref('no-hover')
 const category = [

@@ -1,9 +1,9 @@
 // 引入 createRouter
 import { createRouter, createWebHistory } from "vue-router";
 // 引入路由组件
-import AppHome from '../components/main/AppHome.vue';
-import AppArticles from '../components/main/AppArticles.vue';
-import ArticleDetail from "../components/main/articles/ArticleDetail.vue";
+import AppHome from '@/components/main/AppHome.vue';
+import AppArticles from '@/components/main/AppArticles.vue';
+import ArticleDetail from "@/components/main/articles/ArticleDetail.vue";
 
 const router = createRouter({
     // 路由器工作模式

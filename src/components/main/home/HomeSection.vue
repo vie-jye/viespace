@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="article-detail-btn">
-                <img src="../../../assets/ui/goto.svg" /> 
+                <img src="/src/assets/ui/goto.svg" /> 
             </div>
         </div>
     </div>
@@ -356,7 +356,7 @@ onUnmounted(() => {
     height: 32px;
     background-color: var(--color-molv);
     border-left: 3px solid #B0C0A0;
-    background-image: url("src/assets/ui/getAll.svg");
+    background-image: url("/src/assets/ui/getAll.svg");
 }
 
 .section-cate .more-btn:hover {
@@ -376,7 +376,7 @@ onUnmounted(() => {
     width: 32px;
     height: 32px;
     background-color: var(--color-molv);
-    background-image: url("src/assets/ui/previous.svg");
+    background-image: url("/src/assets/ui/previous.svg");
 }
 
 .section-page.in-boundary .page-previous-btn {
@@ -396,7 +396,7 @@ onUnmounted(() => {
     width: 32px;
     height: 32px;
     background-color: var(--color-molv);
-    background-image: url("src/assets/ui/next.svg");
+    background-image: url("/src/assets/ui/next.svg");
 }
 
 .section-page.in-boundary .page-next-btn {

@@ -44,7 +44,7 @@ import mediumZoom from '@bytemd/plugin-medium-zoom' // 缩放图片
 import breaks from '@bytemd/plugin-breaks' // 换行
 import 'juejin-markdown-themes/dist/vuepress.min.css' // 主题
 import zhHans from 'bytemd/locales/zh_Hans.json' // 中文语言包
-import appConfig from "../../../appConfig";
+import appConfig from "@/appConfig";
 
 // bytemd配置
 const pluginList = [

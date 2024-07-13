@@ -30,8 +30,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import router from "../../router";
-import { useAppState } from "../../store/appState";
+import router from "@/router";
+import { useAppState } from "@/store/appState";
 
 const navList = [{
     name: 'Home',

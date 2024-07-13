@@ -79,6 +79,10 @@ function getTargetClassElement(target: HTMLElement, className: string) {
     z-index: 1;
 }
 
+.goto-top .top-btn-default {
+    opacity: 0.6;
+}
+
 .goto-top:hover {
     cursor: pointer;
 }

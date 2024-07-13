@@ -7,6 +7,7 @@
         <div class="profile-mask">
             <p>{{ profile.name }}</p>
             <p>{{ profile.selfIntro }}</p>
+            <p style="display: none;">{{ profile.backIntro}}</p>
         </div>
     </div>
     <div class="profile-avatar">
@@ -19,8 +20,9 @@
 const profile = {
     avatar: 'https://img.picui.cn/free/2024/07/02/6683d78faf009.jpg',
     background: 'https://img.picui.cn/free/2024/07/02/6683d78faf009.jpg',
-    name: 'MR_VIE',
-    selfIntro: 'I\'m a developer, interested in design, poetry, and photography'
+    name: 'VIE',
+    selfIntro: 'I\'m a developer, interested in design, poetry, and photography',
+    backIntro: 'Hi～ I\'m VIE. 欢迎访问我的空间！我是一名练习时长两月半的前端菜鸟，努力走向全栈开发。日常里喜欢音乐、电影、摄影、诗歌，还有猫猫狗狗——生活文艺，但理科出身。'
 }
 </script>
 
@@ -49,16 +51,17 @@ const profile = {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: blur(5px);
 }
 
 .profile-cover .profile-mask {
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 30%);
+    background-color: rgba(150, 150, 150, 0.45);
     border-radius: 20px;
     position: absolute;
     top: 0;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +74,7 @@ const profile = {
     margin-top: 55px;
 }
 
-.profile-cover .profile-mask>p:last-of-type {
+.profile-cover .profile-mask>p:nth-of-type(2) {
     color: var(--color-snow);
     font-size: 20px;
     font-style: italic;

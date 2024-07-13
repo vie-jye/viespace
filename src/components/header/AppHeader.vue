@@ -1,6 +1,6 @@
 <template>
 <header>
-    <div class="header-title">MR_VIE's Space</div>
+    <div class="header-title">VIE's Space</div>
     <!-- 菜单导航 -->
     <nav class="header-nav">
         <ul class="nav-list">

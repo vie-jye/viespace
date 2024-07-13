@@ -1,6 +1,6 @@
 <template>
 <footer>
-    <p>&copy; 2024 MR_VIE's Space ( 维空间 )</p>
+    <p>&copy; 2024 VIE's Space ( 维空间 )</p>
 </footer>
 </template>
 
@@ -14,6 +14,7 @@ footer {
     padding: 0 20px;
     background-color: var(--color-youlv);
     opacity: 0.8;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 footer p {

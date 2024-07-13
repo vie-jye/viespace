@@ -93,7 +93,7 @@ function getTargetClassElement(target: HTMLElement, className: String) {
     grid-column: 1/6;
     grid-row: 2/3;
     margin-top: 128px;
-    background-color: rgba(37, 61, 36, 45%);
+    background-color: rgba(37, 61, 36, 0.45);
 }
 
 .category .cate {

@@ -32,7 +32,6 @@ import { onMounted, defineProps, reactive, markRaw, toRefs } from 'vue';
 import HomeGotoTop from '../home/HomeGotoTop.vue';
 import axios from 'axios';
 import moment from 'moment'
-import 'highlight.js/styles/a11y-light.css'
 import 'bytemd/dist/index.css' // 导入bytemd样式
 // @ts-ignore
 import { Viewer } from '@bytemd/vue-next' // 导入bytemd编辑器
@@ -45,6 +44,7 @@ import breaks from '@bytemd/plugin-breaks' // 换行
 import 'juejin-markdown-themes/dist/vuepress.min.css' // 主题
 import zhHans from 'bytemd/locales/zh_Hans.json' // 中文语言包
 import appConfig from "@/appConfig";
+import 'highlight.js/styles/vs2015.min.css'
 
 // bytemd配置
 const pluginList = [
@@ -104,7 +104,7 @@ onMounted(() => {
 <style scoped>
 .container {
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     box-sizing: border-box;
     width: 100vw;
 
@@ -144,10 +144,11 @@ onMounted(() => {
     font-size: 32px;
     font-weight: bold;
     color: var(--color-snow);
-    background-color: var(--color-molv);
+    background-color: rgb(83, 112, 54, 0.45);
+    backdrop-filter: blur(5px);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
     padding: 20px 0;
     text-align: center;
-    opacity: 0.9;
     position: absolute;
     bottom: 0;
 }
@@ -163,6 +164,7 @@ onMounted(() => {
     padding: 24px 0;
     background-color: var(--color-molv);
     opacity: 0.8;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .article-footer .article-tags {

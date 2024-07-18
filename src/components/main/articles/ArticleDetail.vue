@@ -146,7 +146,6 @@ onMounted(() => {
     color: var(--color-snow);
     background-color: rgb(83, 112, 54, 0.45);
     backdrop-filter: blur(5px);
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
     padding: 20px 0;
     text-align: center;
     position: absolute;

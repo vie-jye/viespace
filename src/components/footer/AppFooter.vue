@@ -14,7 +14,6 @@ footer {
     padding: 0 20px;
     background-color: var(--color-youlv);
     opacity: 0.8;
-    border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 footer p {

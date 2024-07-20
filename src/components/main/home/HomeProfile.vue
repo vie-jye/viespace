@@ -18,8 +18,8 @@
 
 <script setup lang="ts">
 const profile = {
-    avatar: 'https://img.picui.cn/free/2024/07/02/6683d78faf009.jpg',
-    background: 'https://img.picui.cn/free/2024/07/02/6683d78faf009.jpg',
+    avatar: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/IMG_20200518_235830-ICVS5ULw9EbsI4KiJAJxBBnzNLsUES.jpg',
+    background: 'https://ihy3rkcqheljxe35.public.blob.vercel-storage.com/IMG_20200518_235830-ICVS5ULw9EbsI4KiJAJxBBnzNLsUES.jpg',
     name: 'VIE',
     selfIntro: 'I\'m a developer, interested in design, poetry, and photography',
     backIntro: 'Hi～ I\'m VIE. 欢迎访问我的空间！我是一名练习时长两月半的前端菜鸟，努力走向全栈开发。日常里喜欢音乐、电影、摄影、诗歌，还有猫猫狗狗——生活文艺，但理科出身。'
